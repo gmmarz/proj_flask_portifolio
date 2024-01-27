@@ -19,9 +19,14 @@ def about():
 @app.route('/experiencia')
 def experiencia():
     return render_template('experiencia.html')
+
 @app.route('/skills')
 def skills():
     return render_template('skills.html')
+
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
 
 
 if __name__ == '__main__':
