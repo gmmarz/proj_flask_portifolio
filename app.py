@@ -16,6 +16,10 @@ def home():
 def about():
     return render_template('sobre-mim.html')
 
+@app.route('/experiencia')
+def experiencia():
+    return render_template('experiencia.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

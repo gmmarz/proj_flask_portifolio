@@ -1,6 +1,30 @@
-body {
-    background-color: #a3a3a3;
+.class_banner{
+    width: 100%;
+    height: 150px;
+    background-image: url('/static/Imagens/Banner2.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-color:#628ca5;
 }
-h1 {
+
+.class_left_menu {
+    margin-left: 1px;
+    margin-top: 7px;
+    height: calc(100vh - 150px) ;
+    width: 150px;
+    float: left;
+    background-color: #c7d5e0 ;
+}
+
+.class_main_body {
+    margin-left: 160px;
+    margin-top: -15px;
+    height: calc(100vh - 150px) ;
+    background-color:  #dddbde ;
+}
+
+.class_bigHeader {
     font-family:'Segoe UI', Tahoma,Geneva,Verdana,sans-serif;
+    margin-left: 5px;
 }
+
